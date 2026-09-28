@@ -2,111 +2,47 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Ferdian Rayhan</title>
-  <style>
-    body {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 16px;
-      line-height: 1.6;
-      color: #111;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 30px 20px;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-      margin-bottom: 30px;
-    }
-
-    header img {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      object-position: top;
-    }
-
-    header h1 {
-      margin: 0 0 5px;
-      font-size: 32px;
-      letter-spacing: 2px;
-    }
-
-    header p {
-      margin: 0;
-    }
-
-    section {
-      margin-bottom: 30px;
-    }
-
-    h2 {
-      font-size: 19px;
-      margin: 0 0 8px;
-      padding-bottom: 4px;
-      border-bottom: 2px solid #111;
-    }
-
-    ul {
-      margin: 0;
-      padding-left: 25px;
-    }
-
-    li {
-      margin-bottom: 4px;
-    }
-
-    footer {
-      border-top: 1px solid #aaa;
-      padding-top: 10px;
-      font-size: 14px;
-      text-align: center;
-      color: #444;
-    }
-
-    @media (max-width: 500px) {
-      header {
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-  </style>
+  <title>CV Ferdian Rayhan</title>
 </head>
 <body>
 
   <header>
-    <img src="foto.jpeg" alt="Foto Ferdian Rayhan">
-    <div>
-      <h1>Ferdian Rayhan</h1>
-      <p>+62 815-7363-9458 | <a href="mailto:ferdianrayhan5@gmail.com">ferdianrayhan5@gmail.com</a></p>
-    </div>
+    <table>
+      <tr>
+        <td><img src="foto.jpeg" alt="Foto Ferdian Rayhan" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover;"></td>
+        <td>
+          <h1>Ferdian Rayhan</h1>
+          <p>+62 815-7363-9458 | ferdianrayhan5@gmail.com</p>
+        </td>
+      </tr>
+    </table>
   </header>
 
   <main>
-    <section id="tentang">
+
+    <section>
       <h2>Tentang Saya</h2>
+      <hr>
       <p>
-        Saya, Ferdian Rayhan, adalah mahasiswa Informatika di Institut Teknologi Nasional Bandung
-        yang aktif dalam berbagai kegiatan organisasi dan kepanitiaan. Memiliki kemampuan bekerja
-        sama dalam tim, berkomunikasi dengan baik. Saya memiliki kemauan untuk terus belajar, beradaptasi, dan mengembangkan diri melalui
-        pengalaman di lingkungan kerja.
+        Saya adalah mahasiswa Informatika di Institut Teknologi Nasional
+        Bandung yang memiliki antusias terhadap perkembangan teknologi dan aktif dalam berbagai kegiatan organisasi. Memiliki
+        kemampuan bekerja sama dalam tim, berkomunikasi dengan baik, serta bertanggung jawab
+        dalam menjalankan tugas. Saya memiliki kemauan untuk terus belajar.
       </p>
     </section>
 
-    <section id="pendidikan">
+    <section>
       <h2>Pendidikan</h2>
+      <hr>
       <ul>
         <li>2025 - Sekarang | Institut Teknologi Nasional Bandung | S1 Informatika</li>
         <li>2022 - 2025 | SMA Kemala Bhayangkari Bandung | IPA</li>
       </ul>
     </section>
 
-    <section id="pengalaman">
+    <section>
       <h2>Pengalaman Organisasi &amp; Kepanitiaan</h2>
+      <hr>
       <ul>
         <li>2026 | Wisuda 1 Informatika ITENAS | Ketua Pelaksana</li>
         <li>2026 | PMB Informatika ITENAS | Koordinator Lapangan</li>
@@ -115,8 +51,15 @@
       </ul>
     </section>
 
-    <section id="kemampuan">
-      <h2>Kemampuan</h2>
+    <section>
+     <h2>Keahlian</h2>
+<hr>
+
+<table width="100%">
+  <tr>
+    <!-- Kolom Soft Skills -->
+    <td valign="top" width="50%">
+      <h3>Soft Skills</h3>
       <ul>
         <li>Communication</li>
         <li>Teamwork</li>
@@ -124,11 +67,26 @@
         <li>Problem Solving</li>
         <li>Event Management</li>
       </ul>
-    </section>
+    </td>
+
+    <td valign="top" width="50%">
+      <h3>Hard Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>Python</li>
+        <li>C++</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<hr>
+     </section>
 
   </main>
 
   <footer>
+    <hr>
     <p>&copy; 2026 Ferdian Rayhan</p>
   </footer>
 
